@@ -1,4 +1,3 @@
-<br>
 <h1>Hi 👋, I'm 0MollyMan0</h1>
 <h3>A 42 student</h3>
 
