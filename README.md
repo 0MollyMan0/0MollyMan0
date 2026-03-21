@@ -14,10 +14,10 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://dev.to/0mollyman0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="0mollyman0" height="50" width="65" /></a>
-<a href="https://tryhackme.com/p/Mollyman" target="blank"><img align="center" src="./tryhackme_logo_full.svg" alt="antoine-fougère" height="50" width="65" /></a>
-<a href="https://codesandbox.com/_0mollyman0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="_0mollyman0" height="50" width="65" /></a>
-<a href="https://www.leetcode.com/0mollyman0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="0mollyman0" height="50" width="65" /></a>
-<a href="https://www.topcoder.com/members/16000" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="16000" height="50" width="65" /></a>
+<a href="https://dev.to/0mollyman0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="0mollyman0" height="80" width="80" /></a>
+<a href="https://tryhackme.com/p/Mollyman" target="blank"><img align="center" src="./tryhackme_logo_full.svg" alt="antoine-fougère" height="120" width="120" /></a>
+<a href="https://codesandbox.com/_0mollyman0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="_0mollyman0" height="80" width="80" /></a>
+<a href="https://www.leetcode.com/0mollyman0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="0mollyman0" height="80" width="80" /></a>
+<a href="https://www.topcoder.com/members/16000" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="16000" height="80" width="80" /></a>
 </p>
 <br>
