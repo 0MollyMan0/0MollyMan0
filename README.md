@@ -10,7 +10,7 @@
 
 - 🔭 I'm currently working on [Mini-RT](https://github.com/0MollyMan0/Mini-RT)
 - 🌱 I'm currently learning **C, C++, Python, WebDev and more**
-- 📫 Reach me at **fougereantoine0pro@gmail.com**
+- 📫 Reach me at **MollyMan@etik.com**
 <br>
 
 ## 🛠️ Languages & Tools
