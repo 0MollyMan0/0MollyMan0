@@ -63,7 +63,7 @@
 <table>
   <tr>
     <td align="center">
-     ![TryHackMe Badge](https://raw.githubusercontent.com/TON_USERNAME/TON_USERNAME/main/assets/tryhackme-badge.svg)
+     ![TryHackMe Badge](https://raw.githubusercontent.com/Mollyman/Mollyman/main/assets/tryhackme-badge.svg)
     </td>
     <td align="center">
       <a href="https://dev.to/0mollyman0" target="blank">
