@@ -63,9 +63,7 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://tryhackme.com/p/Mollyman" target="_blank">
-          <img src="https://tryhackme-badges.s3.amazonaws.com/Mollyman.png?v=20260512" alt="TryHackMe">
-      </a>
+     ![TryHackMe Badge](https://raw.githubusercontent.com/TON_USERNAME/TON_USERNAME/main/assets/tryhackme-badge.svg)
     </td>
     <td align="center">
       <a href="https://dev.to/0mollyman0" target="blank">
