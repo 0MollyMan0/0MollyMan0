@@ -1,0 +1,18 @@
+name: Update TryHackMe Badge
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: KeizerSec/Tryhackme-Badge@main
+        with:
+          username: Mollyman
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
