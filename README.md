@@ -54,7 +54,7 @@
 <div align="center">
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0MollyMan0&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
+[!(https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 <br>
 
@@ -63,8 +63,8 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://tryhackme.com/p/Mollyman" target="blank">
-        <img src="https://tryhackme-badges.s3.amazonaws.com/Mollyman.png" alt="TryHackMe" height="80" />
+      <a href="https://tryhackme.com/p/Mollyman" target="_blank">
+          <img src="https://tryhackme-badges.s3.amazonaws.com/Mollyman.png?v=20260512" alt="TryHackMe">
       </a>
     </td>
     <td align="center">
