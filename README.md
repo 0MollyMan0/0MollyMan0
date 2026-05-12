@@ -58,13 +58,12 @@
 </div>
 <br>
 
-## 🌐 Connect With Me
+## 🕵️‍♂️ TryHackMe
+<img src="https://github.com/0MollyMan0/0MollyMan0/blob/main/assets/thm_badge.svg" alt="dev.to" height="200" width="600" />
+<br>
 
+## 🌐 Connect With Me
 <table>
-  <tr>
-    <td align="center">
-     ![TryHackMe Badge](https://raw.githubusercontent.com/0MollyMan0/0MollyMan0/main/assets/tryhackme-badge.svg)
-    </td>
     <td align="center">
       <a href="https://dev.to/0mollyman0" target="blank">
         <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="dev.to" height="80" width="80" />
