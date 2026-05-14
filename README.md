@@ -1,7 +1,7 @@
 <div align="center">
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/0MollyMan0/0MollyMan0/main/assets/hero.svg"
+    src="./assets/hero.svg"
     alt="0MollyMan0 header"
     width="900"
   />
