@@ -1,0 +1,40 @@
+name: "0MollyMan0"
+subtitle: "Low-Level Development • Graphics • Cybersecurity"
+
+canvas:
+  width: 1200
+  height: 380
+
+panel:
+  width: 900
+  height: 168
+  radius: 34
+
+colors:
+  background_top: "#24163E"
+  background_bottom: "#101827"
+
+  blob_lavender: "#C8A8FF"
+  blob_blue: "#96BFFF"
+  blob_periwinkle: "#B6A1FF"
+
+  glass_fill: "#FFFFFF"
+  glass_fill_opacity: 0.11
+
+  glass_stroke: "#FFFFFF"
+  glass_stroke_opacity: 0.22
+
+  text_primary: "#F8F8FF"
+  text_secondary: "#E4E9FF"
+
+fonts:
+  name_size: 60
+  subtitle_size: 24
+  name_weight: 700
+  subtitle_weight: 500
+
+animation:
+  drift_1: "52s"
+  drift_2: "64s"
+  drift_3: "58s"
+  drift_4: "70s"
