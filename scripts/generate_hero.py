@@ -30,7 +30,7 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "blob_blue": "#96BFFF",
         "blob_periwinkle": "#B6A1FF",
         "glass_fill": "#FFFFFF",
-        "glass_fill_opacity": 0.11,
+        "glass_fill_opacity": 0.8,
         "glass_stroke": "#FFFFFF",
         "glass_stroke_opacity": 0.22,
         "text_primary": "#F8F8FF",
