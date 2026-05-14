@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  width="1200"
+  height="380"
+  viewBox="0 0 1200 380"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="0MollyMan0 profile header"
+  preserveAspectRatio="xMidYMid meet"
+>
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#24163E" />
+      <stop offset="100%" stop-color="#101827" />
+    </linearGradient>
+
+    <radialGradient id="blobLavender" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#C8A8FF" stop-opacity="0.95" />
+      <stop offset="55%" stop-color="#C8A8FF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#C8A8FF" stop-opacity="0.00" />
+    </radialGradient>
+
+    <radialGradient id="blobBlue" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#96BFFF" stop-opacity="0.95" />
+      <stop offset="55%" stop-color="#96BFFF" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#96BFFF" stop-opacity="0.00" />
+    </radialGradient>
+
+    <radialGradient id="blobPeriwinkle" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#B6A1FF" stop-opacity="0.95" />
+      <stop offset="55%" stop-color="#B6A1FF" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#B6A1FF" stop-opacity="0.00" />
+    </radialGradient>
+
+    <linearGradient id="panelGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.11" />
+    </linearGradient>
+
+    <filter id="blobBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+
+    <filter id="panelShadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#C8A8FF" flood-opacity="0.14" />
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#FFFFFF" flood-opacity="0.06" />
+    </filter>
+
+    <style>
+      .title {
+        font-family: Inter, Segoe UI, Helvetica Neue, Arial, sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        fill: #F8F8FF;
+      }
+
+      .subtitle {
+        font-family: Inter, Segoe UI, Helvetica Neue, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 1.6px;
+        fill: #E4E9FF;
+      }
+
+      .panel-reflection {
+        opacity: 0.10;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bgGradient)" />
+
+  
+    <g opacity="0.42" filter="url(#blobBlur)" transform="translate(-120,70)">
+      <ellipse cx="0" cy="0" rx="300" ry="220" fill="url(#blobLavender)">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; 18 8; 8 -10; 0 0"
+          keyTimes="0; 0.35; 0.7; 1"
+          dur="52s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+    </g>
+    
+    <g opacity="0.36" filter="url(#blobBlur)" transform="translate(145,390)">
+      <ellipse cx="0" cy="0" rx="260" ry="190" fill="url(#blobBlue)">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; -14 -10; -4 8; 0 0"
+          keyTimes="0; 0.35; 0.7; 1"
+          dur="64s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+    </g>
+    
+    <g opacity="0.40" filter="url(#blobBlur)" transform="translate(1045,55)">
+      <ellipse cx="0" cy="0" rx="250" ry="180" fill="url(#blobPeriwinkle)">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; -10 10; -18 2; 0 0"
+          keyTimes="0; 0.35; 0.7; 1"
+          dur="58s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+    </g>
+    
+    <g opacity="0.30" filter="url(#blobBlur)" transform="translate(1280,320)">
+      <ellipse cx="0" cy="0" rx="240" ry="175" fill="url(#blobLavender)">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; 10 -8; 18 -2; 0 0"
+          keyTimes="0; 0.35; 0.7; 1"
+          dur="70s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+    </g>
+    
+
+  <g filter="url(#panelShadow)">
+    <rect
+      x="150.0"
+      y="106.0"
+      width="900"
+      height="168"
+      rx="34"
+      fill="url(#panelGradient)"
+      stroke="#FFFFFF"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+    />
+
+    <rect
+      x="151.5"
+      y="107.5"
+      width="897"
+      height="12"
+      rx="32"
+      fill="#FFFFFF"
+      class="panel-reflection"
+    />
+
+    <text
+      x="600.0"
+      y="176.0"
+      text-anchor="middle"
+      class="title"
+    >0MollyMan0</text>
+
+    <text
+      x="600.0"
+      y="224.0"
+      text-anchor="middle"
+      class="subtitle"
+    >Low-Level Development • Graphics • Cybersecurity</text>
+  </g>
+</svg>
