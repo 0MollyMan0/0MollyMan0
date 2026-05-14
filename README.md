@@ -1,6 +1,10 @@
 <div align="center">
 <p align="center">
-  <img src="./assets/hero.svg" alt="0MollyMan0 header" />
+  <img
+    src="https://raw.githubusercontent.com/0MollyMan0/0MollyMan0/main/assets/hero.svg"
+    alt="0MollyMan0 header"
+    width="900"
+  />
 </p>
 <br>
 
