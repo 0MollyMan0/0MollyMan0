@@ -1,16 +1,7 @@
 <div align="center">
-
-# Hi 👋, I'm 0MollyMan0
-### A 42 student
-
-</div>
-
-
-## 🙋 About Me
-
-- 🔭 I'm currently working on [Mini-RT](https://github.com/0MollyMan0/Mini-RT)
-- 🌱 I'm currently learning **C, C++, Python, WebDev and more**
-- 📫 Reach me at **MollyMan@etik.com**
+<p align="center">
+  <img src="./assets/hero.svg" alt="0MollyMan0 header" />
+</p>
 <br>
 
 ## 🛠️ Languages & Tools
