@@ -44,15 +44,6 @@
 ![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=nmap&logoColor=white)
 <br>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0MollyMan0&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-[!(https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-</div>
-<br>
-
 ## 🕵️‍♂️ TryHackMe
 <img src="https://github.com/0MollyMan0/0MollyMan0/blob/main/assets/thm_badge.svg" alt="dev.to" height="200" width="600" />
 <br>
