@@ -37,8 +37,8 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "text_secondary": "#E4E9FF",
     },
     "fonts": {
-        "name_size": 60,
-        "subtitle_size": 24,
+        "name_size": 70,
+        "subtitle_size": 30,
         "name_weight": 700,
         "subtitle_weight": 500,
     },
@@ -213,6 +213,10 @@ def main() -> None:
   preserveAspectRatio="xMidYMid meet"
 >
   <defs>
+    <clipPath id="roundedClip">
+      <rect width="{width}" height="{height}" rx="36" ry="36" />
+    </clipPath>
+
     <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="{colors['background_top']}" />
       <stop offset="100%" stop-color="{colors['background_bottom']}" />
@@ -266,12 +270,10 @@ def main() -> None:
         letter-spacing: 1.6px;
         fill: {colors['text_secondary']};
       }}
-
-      .panel-reflection {{
-        opacity: 0.10;
-      }}
     </style>
   </defs>
+
+<g clip-path="url(#roundedClip)">
 
   <rect width="{width}" height="{height}" fill="url(#bgGradient)" />
 
@@ -290,16 +292,6 @@ def main() -> None:
       stroke-width="1.2"
     />
 
-    <rect
-      x="{panel_x + 1.5}"
-      y="{panel_y + 1.5}"
-      width="{panel_w - 3}"
-      height="12"
-      rx="{max(panel_r - 2, 1)}"
-      fill="#FFFFFF"
-      class="panel-reflection"
-    />
-
     <text
       x="{center_x}"
       y="{panel_y + 70}"
@@ -314,6 +306,8 @@ def main() -> None:
       class="subtitle"
     >{subtitle}</text>
   </g>
+
+</g>
 </svg>
 """
 
