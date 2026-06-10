@@ -1,0 +1,13 @@
+name: Test THM API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: |
+          curl -i \
+            "https://tryhackme.com/api/v2/public-profile?username=Mollyman"
