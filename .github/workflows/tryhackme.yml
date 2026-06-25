@@ -2,7 +2,7 @@ name: Update TryHackMe Badge
 
 on:
   schedule:
-    - cron: "59 */23 * * *"
+    - cron: " * * * *"
   workflow_dispatch:
 
 permissions:
