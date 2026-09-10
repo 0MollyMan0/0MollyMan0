@@ -1,0 +1,35 @@
+name: Update TryHackMe Badge
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate TryHackMe badge
+        run: |
+          export THM_USERNAME="Mollyman"
+          export OUTPUT_PATH="assets/thm_badge.svg"
+          export THEME="midnight"
+
+          node scripts/thm/generate.js
+
+      - name: Commit badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/thm_badge.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update TryHackMe badge"
+          git push
