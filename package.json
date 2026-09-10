@@ -1,0 +1,24 @@
+{
+  "name": "readme_repo",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"> <p align=\"center\">   <img     src=\"./assets/hero.svg\"     alt=\"0MollyMan0 header\"     width=\"900\"   /> </p> <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0MollyMan0/0MollyMan0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/0MollyMan0/0MollyMan0/issues"
+  },
+  "homepage": "https://github.com/0MollyMan0/0MollyMan0#readme",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
