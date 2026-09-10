@@ -13,10 +13,12 @@ jobs:
 
       - name: Generate TryHackMe badge
         run: |
+          pwd
+          ls -la
+          find . -maxdepth 4 -type f | sort | grep -E 'generate.js|themes.js|fetch_profile.py|profile.json'
           export THM_USERNAME="Mollyman"
           export OUTPUT_PATH="assets/thm_badge.svg"
           export THEME="midnight"
-
           node scripts/thm/generate.js
 
       - name: Commit badge
